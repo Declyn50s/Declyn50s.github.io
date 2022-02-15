@@ -27,7 +27,7 @@
   --body-color:hsl(255.3,90.5%,66.9%) ;
   --body-image: linear-gradient(to top, #f3e7e9 0%, #e3eeff 99%, #e3eeff 100%);
   --container-color: linear-gradient(135deg, #667eea 0%, #764ba2 100%) ;
-  --scroll-bar-color: whitesmoke;
+  --scroll-bar-image: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
   --scroll-thumb-color: hsl(var(--hue-color), 12%, 80%);
 
   /*========== Font and typography ==========*/
@@ -86,7 +86,7 @@ body.dark-theme {
   --body-color: hsl(255, 77%, 17%);
   --body-image: linear-gradient(to right, #434343 0%, black 100%);
   --container-color: hsl(var(--hue-color), 29%, 16%);
-  --scroll-bar-color: hsl(255, 82%, 9%) ;
+  --scroll-bar-image: linear-gradient(to right, #434343 0%, black 100%);
   --scroll-thumb-color: hsl(var(--hue-color), 12%, 36%);
   
   
@@ -431,7 +431,7 @@ color: #fff;
   bottom: -100%;
   left: 0 ;
   width: 100%;
-  background-color: whitesmoke;
+  background: var(--body-image);
   padding: 2rem 1.5rem 4rem;
   box-shadow: 0 -1px 4px rgba(0,0,0,.15);
   border-radius: 1.5rem 1.5rem 0 0;
@@ -562,13 +562,13 @@ box-sizing: border-box;
 
 /* Change background header */
 .scroll-header{
-  background:  var(--scroll-bar-color);
+  background: var(--body-image);
   box-shadow: 0 -1px 10px 0px rgba(0,0,0,.25);
   opacity: 95%;
 }
 @media screen and (max-width: 768px){
 .scroll-header{
-  background-image: linear-gradient(135deg, rgb(102, 126, 234) 0%, rgb(118, 75, 162) 100%);
+  background-image: var(--scroll-bar-image);
   box-shadow: 0 -1px 10px 0px rgba(0,0,0,.25);
   opacity: 95%;
 }
@@ -1646,5 +1646,3 @@ input[type="submit"]:hover {
     transition: 0.5s cubic-bezier(0.075, 0.82, 0.165, 1) width;
     z-index: 1;
 }
-
-
