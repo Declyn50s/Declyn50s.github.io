@@ -7,10 +7,14 @@
 <!--==================== UNICONS ====================-->
 <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
 
+<!--==================== Librairies JS ====================-->
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
  <!--==================== CSS ====================-->
 <link rel="stylesheet" href="css/style.css" />
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
 <title>Derval Botuna | Marketing Digital, Web & UX Designer</title>
 </head>
@@ -56,7 +60,7 @@
 	  <div class="nav__btns">
 		  <!-- Theme change button-->
 		  <i class="uil uil-moon change-theme" id=theme-button></i>
-		  <a href="page2.html"> <img class="logolang" src="image/united-kingdom.png" alt="EN"/></a>
+		  <a href="page2.html"> <img class="logolang" src="image/united-kingdom.png" alt="EN"></a>
 		<div class="nav__toggle" id="nav-toggle">
 		  <i class="uil uil-apps"></i>
 		</div>
@@ -75,12 +79,12 @@
 
 	<!--=============== HOME ===============-->
 	<a href="page2.html"> <img class="flag" src="image/united-kingdom.png" alt="EN"/></a>
-	<h1 class="bodytop" id="home"> Marketing Digital, Web & UX Designer</h1>
-	<p class="light"> Je conçois et code des choses merveilleusement simples, et j'aime ce que je fais. </p>
-	<img src="image/derval.png" alt="Derval" class="Derval1"/><br>
-		<a class="bouton shadow" href="PDF/CV Derval.pdf" download="CV Derval.pdf" target="_blank">Télécharger CV<i class="uil uil-file-download"></i></a>
+	<h1 class="bodytop" id="home" data-aos="fade-down" data-aos-duration="2000"> Marketing Digital, Web & UX Designer</h1>
+	<p class="light" data-aos="fade-up" data-aos-duration="3000"> Je conçois et code des choses merveilleusement simples, et j'aime ce que je fais. </p>
+	<img src="image/derval.png" alt="Derval" class="Derval1" data-aos="zoom-in" data-aos-duration="1000"><br>
+		<a class="bouton shadow" href="PDF/CV Derval.pdf" download="CV Derval.pdf" target="_blank" data-aos="zoom-in" data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos-delay="50">Télécharger CV<i class="uil uil-file-download"></i></a>
 
-		<div><img class="imaweb" src="image/website-design.png" alt="Webdesigner"/></div>
+		<div data-aos="fade-up" data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos-delay="50"><img class="imaweb" src="image/website-design.png" alt="Webdesigner"/></div>
 		
 	
 	<!--=============== /HOME ===============-->
@@ -88,13 +92,16 @@
 	<!--=============== ABOUT ===============-->
 	<div class="block" id="about">
 	<main>
+			<div data-aos="zoom-in" data-aos-duration="1000" >
 	<h1>Bonjour, je m'appelle Derval. Enchanté de vous rencontrer. </h1>
-	
+			</div>
+			<div data-aos="zoom-in-up" data-aos-easing="ease-in-out" data-aos-delay="50" data-aos-duration="1000">
 		<p> 
 			Autodidacte, je me suis formé dans le webmarketing où j'ai découvert une vraie passion pour la création de site. 
 			Suite à ça, je me suis intéressé plus profondément dans le web et toutes ses ficelles pour devenir Webmaster et due à mon fort intérêt pour la conception, à l'UX Design.
 			Doté d'une grande empathie, ce qui me plaît le plus, c'est de m'immiscer dans la tête du client : anticiper ce qu'il veut, anticiper sa réflexion etc...<br>
 		</p>
+			</div>
 	</main>
 	</div>
 	<!--=============== /ABOUT ===============-->
@@ -102,13 +109,13 @@
 <!--=============== SKILLS ===============-->
 	<section id="skills">
 	<div class="box flottant">
-	<div class="colonne">
+	<div class="colonne" data-aos="fade-up-right" data-aos-easing="ease-in-sine" data-aos-duration="500"data-aos-offset="300">
 		<img class="web" src="image/web.png" alt="web"/>
-		<h2>Dévoloppeur Front-end</h2>
-		<p class="light">
+		<h2 data-aos="fade-up" data-aos-duration="1000">Dévoloppeur Front-end</h2>
+		<p class="light" data-aos="fade-up" data-aos-duration="3000">
 		J'aime coder des choses à partir de rien, et j'aime donner vie à mes idées dans le navigateur. <br> </p>
-		<h3> Mes langages de programmation </h3>
-			<p class="light">
+		<h3 data-aos="fade-right" data-aos-duration="1000"> Mes langages de programmation </h3>
+			<p class="light" data-aos="fade-up" data-aos-duration="3000">
 				HTML<br>
 				CSS<br>
 				JavaScript<br>
@@ -119,8 +126,8 @@
 				MySQL<br>
 			</p>
 		
-		<h3> Mes outils de développeur </h3>
-			<p class="light">
+		<h3 data-aos="fade-left" data-aos-duration="1000"> Mes outils de développeur </h3>
+			<p class="light" data-aos="fade-up" data-aos-duration="3000">
 				Visual Studio Code<br>
 				Adobe Dreamweaver<br>
 				Codepen<br>
@@ -136,14 +143,14 @@
 	
 	</div>
 	
-	<div class="colonne">
+	<div class="colonne" data-aos="fade-up" data-aos-easing="ease-in-sine" data-aos-duration="500">
 		<img class="web" src="image/ux-design.png" alt="ux-design"/>
-		<h2>UX Designer</h2>
-		<p class="light"> 
+		<h2 data-aos="fade-up" data-aos-duration="1000">UX Designer</h2>
+		<p class="light" data-aos="fade-up" data-aos-duration="3000"> 
 		J'attache de l'importance à une structure de contenu simple, à des modèles de conception épurés et à des interactions réfléchies. <br>
 		</p>
-		<h3> Les choses que j'aime dessiner </h3>
-			<p class="light">
+		<h3 data-aos="fade-right" data-aos-duration="1000"> Les choses que j'aime dessiner </h3>
+			<p class="light" data-aos="fade-up" data-aos-duration="3000">
 				UX<br>
 				UI<br>
 				WEB<br>
@@ -152,8 +159,8 @@
 				Logos<br>
 			</p>
 		
-		<h3> Mes outils de conception </h3>
-			<p class="light">
+		<h3 data-aos="fade-left" data-aos-duration="1000"> Mes outils de conception </h3>
+			<p class="light" data-aos="fade-up" data-aos-duration="3000">
 				Figma<br>
 				BravoStudioApp<br>
 				Adobe XD<br>
@@ -170,14 +177,14 @@
 	
 	</div> 
 	
-		<div class="colonne"> 
+		<div class="colonne" data-aos="fade-up-left" data-aos-easing="ease-in-sine" data-aos-duration="500" data-aos-offset="300"> 
 			<img class="web" src="image/bullhorn.png" alt="Marketing"/>
-		<h2>Marketing Digital</h2>
-		<p class="light"> 
+		<h2 data-aos="fade-up" data-aos-duration="1000">Marketing Digital</h2>
+		<p class="light" data-aos="fade-up" data-aos-duration="3000"> 
 		J'aime faire des recherches de produits, de sites, d'actualités, de tendances... <br>
 		<br></p>
-		<h3> Les CMS que j'utilise </h3>
-			<p class="light">
+		<h3 data-aos="fade-left" data-aos-duration="1000"> Les CMS que j'utilise </h3>
+			<p class="light" data-aos="fade-up" data-aos-duration="3000">
 				Shopify<br>
 				Wordpress<br>
 				WooCommerce<br>
@@ -185,8 +192,8 @@
 				PrestaShop<br>
 			</p>
 		
-		<h3> Mes maîtrises publicitaires </h3>
-			<p class="light">
+		<h3 data-aos="fade-right" data-aos-duration="1000"> Mes maîtrises publicitaires </h3>
+			<p class="light" data-aos="fade-up" data-aos-duration="3000">
 				Google Ads<br>
 				Facebook Ads<br>
 				Pinterest Ads<br>
@@ -202,23 +209,23 @@
 
 <!--=============== PORTFOLIO ===============-->
 <!-------------- rubriques à faire et mettre tous les liens-->
-<div class="block" id="portfolio">
+<div class="block" id="portfolio" data-aos="fade-left">
 	<div class="texte">
-		<h2 class="sites"> Les sites que j'ai conçu </h2>
+		<h2 class="sites" data-aos="fade-down" data-aos-offset="300" data-aos-easing="ease-in-sine" data-aos-duration="500"> Les sites que j'ai conçu </h2>
 			<div class="work">
-				<div class="colonne">
+				<div class="colonne" data-aos="flip-up" data-aos-offset="300" data-aos-easing="ease-in-sine" data-aos-duration="1000">
 				<img class="imaweb logos" src="image/gearhouseco.png" alt="GearHouse"><br>
 				<p class="light">Site e-commerce conçu avec Shopify <br>
 					<a href="https://gearhouseco.com" alt="GearHouse" class="buttons">Voir le site</a>
 				</p>
 				</div>
-				<div class="colonne">
+				<div class="colonne" data-aos="flip-up" data-aos-offset="300" data-aos-easing="ease-in-sine" data-aos-duration="1000">
 					<img class="imaweb logos" src="image/Faraboo.png" alt="Faraboo"><br>
 					<p class="light">Site e-commerce conçu avec Shopify <br>
 						<a href="https://faraboo.com" alt="Faraboo" class="buttons">Voir le site</a>
 					</p>
 					</div>
-					<div class="colonne">
+					<div class="colonne" data-aos="flip-up" data-aos-offset="300" data-aos-easing="ease-in-sine" data-aos-duration="1000">
 						<img class="qitcho" src="image/Qitcho2.png" alt="Qitcho"><br>
 						<p class="light">Site e-commerce conçu avec Shopify <br>
 							<a href="https://qitcho.com" alt="Qitcho" class="buttons">Voir le site</a>
@@ -236,7 +243,9 @@
 <!--=============== EXPERIENCE ===============-->
 
 <div class="box peu">
-	<div class="colonne">
+	<div class="colonne" data-aos="flip-left"
+	data-aos-easing="ease-out-cubic"
+	data-aos-duration="2000">
 		<img class="web mini" src="image/education.png" alt="formation"/>
 		<h3>Mes formations</h3>
 		<p class="light">
@@ -261,7 +270,9 @@
 			<em>Apprentissage d'employé de commerce en voie élargie </em><br>
 		</p>
 	</div>
-	<div class="colonne">
+	<div class="colonne" data-aos="flip-left"
+	data-aos-easing="ease-out-cubic"
+	data-aos-duration="2000">
 		<img class="web mini" src="image/cv.png" alt="Profession"/>
 		<h3>Mes expériences professionnels</h3>
 		<p class="light">
@@ -283,7 +294,9 @@
 
 
 
-	<div class="colonne">
+	<div class="colonne" data-aos="flip-right"
+	data-aos-easing="ease-out-cubic"
+	data-aos-duration="2000">
 		<img class="web mini" src="image/skills.png" alt="Qualités"/>
 		<h3> Mes Qualités </h3>
 		<p class="light"> Gestion du stress <br>
@@ -300,7 +313,9 @@
 			 <br>
 			Aptitudes à travailler en équipe <br> </p>
 	</div>
-		<div class="colonne">
+		<div class="colonne" data-aos="flip-right"
+		data-aos-easing="ease-out-cubic"
+		data-aos-duration="2000">
 		<img class="web mini" src="image/basketball-ball.png" alt="Loisirs"/>
 		<h3> Mes Loisirs </h3>
 		<p class="light"> Basketball<br>
@@ -324,17 +339,24 @@
 <br>
 <br>
 <br>
-<h2 id="contact">Intéressé par une collaboration ou un investissement ?</h2>
-<p>Je suis toujours prêt à discuter de la conception ou des possibilités de partenariat.</p>
-<h4><a class="bouton shadow"  href="ContactFr.html">Envoyer un message<i class="uil uil-message"></i></a></body></h4>
+<h2 id="contact" data-aos="fade-down"
+data-aos-easing="linear"
+data-aos-duration="1500">Intéressé par une collaboration ou un investissement ?</h2>
+<p data-aos="fade-up" data-aos-duration="3000">Je suis toujours prêt à discuter de la conception ou des possibilités de partenariat.</p>
+<h4><a class="bouton shadow"  href="ContactFr.html" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine" data-aos-duration="500">Envoyer un message<i class="uil uil-message"></i></a></h4>
+
+</body>
 
 	<!--=============== CONTACTME ===============-->
 
 	<!-- ==================App JS===============-->
 <script src="js/app.js"></script>
+<script>
+  AOS.init();
+</script>
 </body>
 <!--------------------------------------------->
-<footer> 
+<footer data-aos="flip-down" data-aos-duration="3000"> 
 	<img class="web" src="image/communicate.png" alt="Contact"/><br>
 <nav><strong> Contact </strong></nav><br>
 <address> 
@@ -404,4 +426,3 @@
 Produit par © DervalBotuna
 </footer>
 </html>
-
