@@ -1,16 +1,30 @@
 <!DOCTYPE html>
 <html lang="fr">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
-    <title>Derval Botuna | Contact</title>
-    <link rel="stylesheet" href="css/style.css"/>
-    
-  </head>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+<!--==================== UNICONS ====================-->
+<link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+
+<!--==================== Librairies JS ====================-->
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+ <!--==================== CSS ====================-->
+<link rel="stylesheet" href="css/style.css" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+<title>Derval Botuna | Contact</title>
+</head>
+
   <header>
+    
+    
       <nav>
-        <div class="back shadow">
+        <div class="scroll-line"></div>
+        <div class="back shadow" data-aos="zoom-in-left" data-aos-easing="ease-in-sine" data-aos-duration="500" data-aos-offset="300">
             <a href="index.html"> 
             <i class="uil uil-corner-up-left"></i> Retour
             </a>
@@ -26,8 +40,8 @@
     <div class="containers">
       <span class="big-circle"></span>
       <img src="img/shape.png" class="square" alt="" />
-      <div class="form">
-        <div class="contact-info">
+      <div class="form" data-aos="zoom-in" data-aos-easing="ease-in-sine" data-aos-duration="500" data-aos-offset="300">
+        <div class="contact-info" data-aos="fade-right" data-aos-duration="1000">
           <h3 class="title">Collaborons !</h3>
           <p class="text">
             Vous voulez discuter d'une collaboration ? Je suis tout à fait partant. <br>
@@ -48,42 +62,43 @@
           
         </div>
 
-        <div class="contact-form">
+        <div class="contact-form" data-aos="zoom-in-left" >
           <span class="circle one"></span>
           <span class="circle two"></span>
 
           <form action="php/mail.php" method="post" autocomplete="off">
-            <h3 class="title">Contact</h3>
-            <div class="input-container" >
+            <h3 class="title" data-aos="zoom-in-left" >Contact</h3>
+            <div class="input-container" data-aos="fade-left" data-aos-duration="1000">
               <input type="text" name="name" class="input" required>
               <div class="underline"></div>
               <label for="">Nom</label>
               <span>Nom</span>
             </div>
-            <div class="input-container">
+            <div class="input-container" data-aos="fade-left" data-aos-duration="1000">
               <input type="email" name="email" class="input" required>
               <div class="underline"></div>
               <label for="">E-mail</label>
               <span>E-mail</span>
             </div>
-            <div class="input-container">
+            <div class="input-container" data-aos="fade-left" data-aos-duration="1000">
               <input type="tel" name="phone" class="input" required>
               <div class="underline"></div>
               <label for="">Téléphone</label>
               <span>Téléphone</span>
             </div>
-            <div class="input-container">
+            <div class="input-container" data-aos="fade-left" data-aos-duration="1000">
               <input type="text" name="subject" class="input" required>
               <div class="underline"></div>
               <label for="">Sujet</label>
               <span>Sujet</span>
             </div>
-            <div class="input-container textarea">
+            <div class="input-container textarea" data-aos="fade-left" data-aos-duration="1000">
               <textarea name="message" class="input" required></textarea>
               <div class="underline"></div>
               <label for="">Message</label>
               <span>Messsage</span>
             </div>
+            
             <input type="submit" value="ENVOYER" class="btns">
             
           </form>
@@ -95,10 +110,13 @@
     crossorigin="anonymous"
   ></script>
     <script src="js/app.js"></script>
+    <script>
+      AOS.init();
+    </script>
    
   </body>
 
-  <footer> 
+  <footer data-aos="flip-down" data-aos-duration="1000"> 
 	<img class="web" src="image/communicate.png" alt="Contact"/><br>
 <nav><strong> Contact </strong></nav><br>
 <address> 
