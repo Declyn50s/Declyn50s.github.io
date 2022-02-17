@@ -5,9 +5,11 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Poiret+One&family=Sanchez&family=Shizuru&display=swap');
 
+
 /*==================== VARIABLES CSS ====================*/
 :root {
   --header-height: 3rem;
+
   /*========== Colors ==========*/
   /* Change favorite color */
   --hue-color: 255.3; /*Purple 255.3 - Green 142 - Blue 230 - Pink 340*/
@@ -86,6 +88,8 @@ body.dark-theme {
   --container-color: hsl(var(--hue-color), 29%, 16%);
   --scroll-bar-image: linear-gradient(to right, #434343 0%, black 100%);
   --scroll-thumb-color: hsl(var(--hue-color), 12%, 36%);
+  
+  
 }
 
 /*========== Button Dark/Light ==========*/
@@ -96,6 +100,8 @@ body.dark-theme {
     align-items: center;
   }
 }
+
+
 .change-theme{
   font-size: 1.25rem;
   color: var(--title-color);
@@ -110,7 +116,6 @@ body.dark-theme {
 *{
 padding: 0;
 margin: 0;
-overflow-x: hidden;
 }
 
 html{
@@ -118,6 +123,7 @@ scroll-behavior: smooth;
   padding:0;
   overflow-x: hidden;
   }
+
 
 body {
 height: 100%;
@@ -142,6 +148,7 @@ h1 {
   margin-bottom: 35px;
 }
 
+
 h2 {
 color: var(--title-color);
   font-size: var(--h2-font-size); 
@@ -162,12 +169,20 @@ h4 {
   color: black;
 }
 
+h5 {
+
+}
+
+
+
+
 p {
   padding-right: 30px;
   padding-left: 30px;
   font-size: 1.2rem;
   line-height: 1.75rem;
 }
+
 
 li {
   list-style: none;
@@ -176,6 +191,8 @@ li {
   margin-left: 0;
   margin-top: 0;
   }
+
+
 
 ul {
 list-style: none;
@@ -222,6 +239,7 @@ main {
 width: 270px;
 margin-bottom: -35px;
 }
+
 /* les images icons */
 .web {
   width: 100px;
@@ -232,6 +250,7 @@ margin-bottom: -35px;
   width: 62px;
   padding: 3vh;
 }
+
 .logos {
   width: 250px;
   margin: 25px;
@@ -263,9 +282,11 @@ margin-bottom: -35px;
   display: flex;
   margin: 6vw;
   margin-bottom: 0px;
+ 
 }
 
-.flottant{
+.flottant
+{
   margin-top: -10rem  
 }
 
@@ -312,11 +333,13 @@ display: block;
 font-size: var(--small-font-size);
 margin-bottom: var(--mb-3);
 }
+
 .section__title,
 .section__subtitle{
 text-align: center;
 }
 /*==================== LAYOUT ====================*/
+
 .container{
 max-width: 768px;
 margin-left: var(--mb-1-5);
@@ -372,8 +395,12 @@ margin-right: var(--mb-1-5);
     margin-left: var(--mb-1-5);
     margin-right: var(--mb-1-5);    
     }
+
 }
+
 /*==================== NAV ====================*/
+
+
 .nav__logo,
 .nav__toggle{
 color: var(--title-color);
@@ -427,7 +454,9 @@ color: #fff;
 }
 .uil-times,
 .uil-apps {
-  visibility: visible;}
+  visibility: visible;
+}
+
 }
 
 @media screen and (max-width: 767px) {
@@ -480,6 +509,7 @@ color: #fff;
 		color: #fff;
 	}
 
+
 @keyframes animate{
 	0%{
 		top: 50%;
@@ -525,10 +555,13 @@ bottom: 0;
 box-sizing: border-box;
 }
 
+
 /* Active link */
 .active-link{
  color: var(--first-color); 
 }
+
+
 
 /* Change background header */
 .scroll-header{
@@ -549,6 +582,7 @@ box-sizing: border-box;
 }
 
 /*==================== HOME ====================*/
+
 
 /*==================== BUTTONS ====================*/
 .buttons{
@@ -574,15 +608,21 @@ box-sizing: border-box;
   align-items: center;
 }
 
+
 /*==================== ABOUT ====================*/
+
 
 /*==================== SKILLS ====================*/
 
+
 /*==================== QUALIFICATION ====================*/
+
 
 /*==================== SERVICES ====================*/
 
+
 /* Active Modal */
+
 
 /*==================== PORTFOLIO ====================*/
 .portfolio__container{
@@ -654,11 +694,17 @@ box-sizing: border-box;
     transition-property: transform;
 }
 
+
+
 /*==================== PROJECT IN MIND ====================*/
+
 
 /*==================== TESTIMONIAL ====================*/
 
+
 /*==================== CONTACT ME ====================*/
+
+
 .containers {
   position: inherit;
   width: 100%;
@@ -965,6 +1011,8 @@ input:invalid ~ label,
 .textarea textarea:invalid ~ label{
   
 }
+
+
 .input .underline{
   position: absolute;
   bottom: 0;
@@ -980,6 +1028,9 @@ input:invalid ~ label,
   background: red;
 }
   
+
+
+
 @media (max-width: 850px) {
   
   .form {
@@ -1075,7 +1126,10 @@ input:invalid ~ label,
   margin-top: -50px;
 }
 ****/
+
+
 /*==================== FOOTER ====================*/
+
 
 /*========== SCROLL UP ==========*/
 .scrollup{
@@ -1188,6 +1242,7 @@ input:invalid ~ label,
   background-image: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
   color: whitesmoke;
 }
+
 
 /*====================Reseaux Sociaux===================*/
 #wrapper {
@@ -1320,6 +1375,7 @@ input[type="submit"]:hover {
   
 }
 
+
 /*==================== MEDIA QUERIES ====================*/
 /* For small devices */
 @media  screen and (max-width: 350px){
@@ -1339,10 +1395,13 @@ input[type="submit"]:hover {
   }
 }
 
+
 /* For medium devices */
+
 
 /* For large devices */
 
+  
   /*=============== MEDIA QUERIES ===============*/
   /* For small devices */
   /* Remove if you choose, the minimalist design */
@@ -1574,7 +1633,10 @@ input[type="submit"]:hover {
               border-color: #855ef7;
               margin-bottom: 72px;
           }
+
+
  }
+
   /************************ Scroll Progress ********************/
   .scroll-line {
     position: fixed;
@@ -1587,4 +1649,5 @@ input[type="submit"]:hover {
     transition: 0.5s cubic-bezier(0.075, 0.82, 0.165, 1) width;
     z-index: 1;
 }
+
 /*** =========================== ANIMATION SCRIPT ========================= ******/
