@@ -1,10 +1,7 @@
 @charset "utf-8";
 /* CSS Document */
-
 /*==================== GOOGLE FONTS ====================*/
-
 @import url('https://fonts.googleapis.com/css2?family=Poiret+One&family=Sanchez&family=Shizuru&display=swap');
-
 
 /*==================== VARIABLES CSS ====================*/
 :root {
@@ -88,10 +85,7 @@ body.dark-theme {
   --container-color: hsl(var(--hue-color), 29%, 16%);
   --scroll-bar-image: linear-gradient(to right, #434343 0%, black 100%);
   --scroll-thumb-color: hsl(var(--hue-color), 12%, 36%);
-  
-  
 }
-
 /*========== Button Dark/Light ==========*/
 
 @media screen and (max-width: 767px){
@@ -100,8 +94,6 @@ body.dark-theme {
     align-items: center;
   }
 }
-
-
 .change-theme{
   font-size: 1.25rem;
   color: var(--title-color);
@@ -111,7 +103,6 @@ body.dark-theme {
 .change-theme:hover{
   color: #fff;
 }
-
 /*==================== BASE ====================*/
 *{
 padding: 0;
@@ -123,7 +114,6 @@ scroll-behavior: smooth;
   padding:0;
   overflow-x: hidden;
   }
-
 
 body {
 height: 100%;
@@ -148,7 +138,6 @@ h1 {
   margin-bottom: 35px;
 }
 
-
 h2 {
 color: var(--title-color);
   font-size: var(--h2-font-size); 
@@ -169,12 +158,6 @@ h4 {
   color: black;
 }
 
-h5 {
-
-}
-
-
-
 
 p {
   padding-right: 30px;
@@ -183,7 +166,6 @@ p {
   line-height: 1.75rem;
 }
 
-
 li {
   list-style: none;
   font-size: 1.2rem;
@@ -191,8 +173,6 @@ li {
   margin-left: 0;
   margin-top: 0;
   }
-
-
 
 ul {
 list-style: none;
@@ -282,7 +262,6 @@ margin-bottom: -35px;
   display: flex;
   margin: 6vw;
   margin-bottom: 0px;
- 
 }
 
 .flottant
@@ -535,19 +514,6 @@ color: #fff;
 .nav__icon{
   font-size: 1.2rem;
 }
-/*****
-.nav__close{
-  position: absolute;
-  right: 1.3rem;
-  bottom: .5rem;
-  font-size: 1.5rem;
-  cursor: pointer;
-  color: var(--first-color);
-}
-.nav__close:hover{
-  color: var(--first-color-alt);
-}
-*****/
 
 /* show menu */
 .show-menu{
@@ -555,13 +521,10 @@ bottom: 0;
 box-sizing: border-box;
 }
 
-
 /* Active link */
 .active-link{
  color: var(--first-color); 
 }
-
-
 
 /* Change background header */
 .scroll-header{
@@ -608,21 +571,7 @@ box-sizing: border-box;
   align-items: center;
 }
 
-
-/*==================== ABOUT ====================*/
-
-
-/*==================== SKILLS ====================*/
-
-
-/*==================== QUALIFICATION ====================*/
-
-
-/*==================== SERVICES ====================*/
-
-
 /* Active Modal */
-
 
 /*==================== PORTFOLIO ====================*/
 .portfolio__container{
@@ -694,16 +643,7 @@ box-sizing: border-box;
     transition-property: transform;
 }
 
-
-
-/*==================== PROJECT IN MIND ====================*/
-
-
-/*==================== TESTIMONIAL ====================*/
-
-
 /*==================== CONTACT ME ====================*/
-
 
 .containers {
   position: inherit;
@@ -1069,64 +1009,6 @@ input:invalid ~ label,
     padding: 1.5rem 0 0 0;
   }
 }
-/**
-@media (max-width: 480px) {
-  .containers {
-    padding: 1.5rem;
-  }
-
-  .contact-info:before {
-    display: none;
-  }
-
-  .square,
-  .big-circle {
-    display: none;
-  }
-
-  form,
-  .contact-info {
-    padding: 1.7rem 1.6rem;
-  }
-
-  .text,
-  .information,
-  .social-media p {
-    font-size: 0.8rem;
-  }
-
-  .title {
-    font-size: 1.15rem;
-  }
-
-  .social-icons a {
-    width: 30px;
-    height: 30px;
-    line-height: 30px;
-  }
-
-  .icon {
-    width: 23px;
-  }
-
-  .input {
-    padding: 0.45rem 1.2rem;
-  }
-
-  .btns {
-    padding: 0.45rem 1.2rem;
-  }
-}
-
-.info{
-  font-style: italic;
-  font-size : .9em;
-  color: grey;
-  padding: 1vh;
-  margin-top: -50px;
-}
-****/
-
 
 /*==================== FOOTER ====================*/
 
@@ -1335,46 +1217,12 @@ input:invalid ~ label,
 }
 
 /*====================== CONTACT ========================*/
-/****************Contact************
-input, textarea {
-  margin: 5px;
-  width: 50%;
-  margin-bottom: 15px;
-  padding: 15px;
-  border: none;
-  outline: none;
-  border-radius: 5px;
 
-}
-
-textarea {
-  resize: none;
-  height: 100px; 
-}
-
-input[type="submit"] {
-      grid-area: bt;
-      cursor: pointer;
-      background-image: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-      color: whitesmoke;
-      transition: 0.4s;
-      border-radius: 50px;
-      width: 48%;
-      margin-bottom: 65px;
-   }
-
-input[type="submit"]:hover {
-  background-image: linear-gradient(to top, #c471f5 0%, #fa71cd 100%);
-  color: whitesmoke;
-  
-}
-*******/
 /******** Fleche haut/ Arrow top ********/
 .btn {
   display: none;
   
 }
-
 
 /*==================== MEDIA QUERIES ====================*/
 /* For small devices */
@@ -1394,7 +1242,6 @@ input[type="submit"]:hover {
     grid-template-columns: .25fr 3fr;
   }
 }
-
 
 /* For medium devices */
 
