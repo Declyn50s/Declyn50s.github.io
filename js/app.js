@@ -1,4 +1,3 @@
-
 /*==================== MENU SHOW Y HIDDEN ====================*/
 const navMenu = document.getElementById('nav-menu'),
       navToggle = document.getElementById('nav-toggle'),
@@ -11,7 +10,6 @@ if(navToggle){
     navMenu.classList.add('show-menu')
   })
 }
-
 /*===== MENU HIDDEN =====*/
 /* Validate if constant exists */
 if(navClose){
@@ -19,7 +17,6 @@ if(navClose){
     navMenu.classList.remove('show-menu')
 })
 }
-
 /*==================== REMOVE MENU MOBILE ====================*/
 const navLink = document.querySelectorAll('.nav__link')
 
@@ -29,25 +26,6 @@ function linkAction(){
     navMenu.classList.remove('show-menu')
 }
 navLink.forEach(n => n.addEventListener('click', linkAction))
-
-
-/*==================== ACCORDION SKILLS ====================*/
-
-
-/*==================== QUALIFICATION TABS ====================*/
-
-
-/*==================== SERVICES MODAL ====================*/
-
-
-/*==================== PORTFOLIO SWIPER  ====================*/
-
-
-
-
-/*==================== TESTIMONIAL ====================*/
-
-
 /*==================== SCROLL SECTIONS ACTIVE LINK ====================*/
 const sections = document.querySelectorAll('section[id]')
 
@@ -67,8 +45,6 @@ function scrollActive(){
     })
 }
 window.addEventListener('scroll', scrollActive)
-
-
 /*==================== CHANGE BACKGROUND HEADER ====================*/ 
 function scrollHeader(){
     const nav = document.getElementById('header')
@@ -76,7 +52,6 @@ function scrollHeader(){
     if(this.scrollY >= 80) nav.classList.add('scroll-header'); else nav.classList.remove('scroll-header')
 }
 window.addEventListener('scroll', scrollHeader)
-
 /*==================== SHOW SCROLL UP ====================*/ 
 function scrollUp(){
     const scrollUp = document.getElementById('scroll-up');
@@ -84,7 +59,6 @@ function scrollUp(){
     if(this.scrollY >= 560) scrollUp.classList.add('show-scroll'); else scrollUp.classList.remove('show-scroll')
 }
 window.addEventListener('scroll', scrollUp)
-
 /*==================== DARK LIGHT THEME ====================*/ 
 const themeButton = document.getElementById('theme-button')
 const darkTheme = 'dark-theme'
@@ -115,7 +89,6 @@ themeButton.addEventListener('click', () => {
     localStorage.setItem('selected-icon', getCurrentIcon())
 })
 
-
 /*==================== Scroll Progress ====================*/
 const scrollLine = document.querySelector('.scroll-line');
 
@@ -144,5 +117,4 @@ function debounce(func, wait = 15, immediate) {
     if (callNow) func.apply(context, args);
   };
 }
-
-/*==================== CONTACT ====================*/
+/*==================== ANIMATION JS ====================*/
